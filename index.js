@@ -5,27 +5,26 @@ const CDP = require("chrome-remote-interface");
 const filePath = "processes.json";
 
 const getUrl = async () => {
-  CDP((client) => {
-    // Extracted necessary domains
+  try {
+    const client = await CDP();
+
+    // Extract necessary domains
     const { Page, Runtime } = client;
 
     // Enable necessary domains
-    Promise.all([Page.enable(), Runtime.enable()]).then(() => {
-      // Evaluate script to get current URL
-      Runtime.evaluate({ expression: "window.location.href" })
-        .then((result) => {
-          console.log("Current URL:", result.result.value);
-        })
-        .catch((err) => {
-          console.error("Error getting URL:", err);
-        })
-        .finally(() => {
-          client.close();
-        });
+    await Promise.all([Page.enable(), Runtime.enable()]);
+
+    // Evaluate script to get current URL
+    const result = await Runtime.evaluate({
+      expression: "window.location.href",
     });
-  }).on("error", (err) => {
-    console.error("Cannot connect to Chrome:", err);
-  });
+
+    // console.log("Current URL:", result.result.value);
+    await client.close();
+    return result.result.value;
+  } catch (err) {
+    console.error("Error:", err);
+  }
 };
 
 const storeData = async (activeWin) => {
@@ -55,22 +54,21 @@ const storeData = async (activeWin) => {
 async function monitorActiveWindow() {
   try {
     const activeWindow = await activeWin();
+    const appData = {};
 
     const activeAppName = activeWindow.owner.name;
     if (
       activeAppName.includes("Google Chrome") &&
       activeWindow.platform === "windows"
     ) {
-      getUrl();
+      const url = await getUrl();
+      appData.url = url;
     }
-    storeData({
-      activeWindow: activeWindow.title,
-      processName: activeWindow.owner.name,
-      timeStart: Date.now().toLocaleString(),
-      url: activeWin,
-    });
-    // console.log("Active Window:", activeWindow.title);
-    // console.log("Process Name:", activeWindow.owner.name);
+
+    appData.activeWindow = activeWindow.title;
+    appData.processName = activeWindow.owner.name;
+    appData.timeStart = Date.now().toLocaleString();
+    storeData(appData);
   } catch (error) {
     console.error("Error occurred:", error);
   }
