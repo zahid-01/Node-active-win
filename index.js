@@ -4,6 +4,7 @@ const saveData = require("./Models/saveJson");
 
 const chromeUrl = require("./Controllers/chrome");
 const getEdgeUrl = require("./Controllers/edge");
+const getFfUrl = require("./Controllers/firefox");
 
 async function monitorActiveWindow() {
   try {
@@ -22,6 +23,12 @@ async function monitorActiveWindow() {
       activeWindow.platform === "windows"
     ) {
       const url = await getEdgeUrl();
+      // appData.url = url;
+    } else if (
+      activeAppName.includes("Firefox") &&
+      activeWindow.platform === "windows"
+    ) {
+      const url = await getFfUrl();
       // appData.url = url;
     }
 

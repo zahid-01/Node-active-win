@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "active-win": "^8.2.1",
-    "chrome-remote-interface": "^0.33.0"
+    "chrome-remote-interface": "^0.33.0",
+    "firefox-profile": "^4.5.0",
+    "puppeteer": "^22.5.0"
   }
 }

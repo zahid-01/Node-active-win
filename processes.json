@@ -1,1 +1,38 @@
-[{"activeWindow":"processes.json - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,95,43,129"},{"activeWindow":"New tab - Personal - Microsoft​ Edge","processName":"Microsoft Edge","timeStart":"17,10,82,95,45,135"},{"activeWindow":"processes.json - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,95,59,224"},{"url":"https://chat.openai.com/c/50bca043-1ba8-4b4d-b831-14d94f6179a0","activeWindow":"Get Active Tab URL. - Google Chrome","processName":"Google Chrome","timeStart":"17,10,82,95,67,352"},{"activeWindow":"index.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,95,69,353"},{"url":"https://chat.openai.com/c/50bca043-1ba8-4b4d-b831-14d94f6179a0","activeWindow":"Get Active Tab URL. - Google Chrome","processName":"Google Chrome","timeStart":"17,10,82,97,24,014"},{"activeWindow":"index.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,97,40,343"},{"activeWindow":"Samsung Galaxy A54 5G 128 GB, 8 GB RAM, Awesome Lime, Mobile Phone - Search Shopping - Personal - Microsoft​ Edge","processName":"Microsoft Edge","timeStart":"17,10,82,97,60,424"},{"activeWindow":"index.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,97,62,433"},{"activeWindow":"Samsung Galaxy A54 5G 128 GB, 8 GB RAM, Awesome Lime, Mobile Phone - Search Shopping - Personal - Microsoft​ Edge","processName":"Microsoft Edge","timeStart":"17,10,82,98,68,746"},{"activeWindow":"edge.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,98,70,755"},{"activeWindow":"Samsung Galaxy A54 5G 128 GB, 8 GB RAM, Awesome Lime, Mobile Phone - Search Shopping - Personal - Microsoft​ Edge","processName":"Microsoft Edge","timeStart":"17,10,82,99,06,937"},{"activeWindow":"edge.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,99,08,948"},{"url":"https://chat.openai.com/c/50bca043-1ba8-4b4d-b831-14d94f6179a0","activeWindow":"Get Active Tab URL. - Google Chrome","processName":"Google Chrome","timeStart":"17,10,82,99,43,148"},{"activeWindow":"edge.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,82,99,88,110"},{"activeWindow":"Samsung Galaxy A54 5G 128 GB, 8 GB RAM, Awesome Lime, Mobile Phone - Search Shopping - Personal - Microsoft​ Edge","processName":"Microsoft Edge","timeStart":"17,10,83,00,02,782"},{"activeWindow":"edge.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,83,00,08,823"},{"url":"https://chat.openai.com/c/50bca043-1ba8-4b4d-b831-14d94f6179a0","activeWindow":"Get Active Tab URL. - Google Chrome","processName":"Google Chrome","timeStart":"17,10,83,00,19,061"},{"activeWindow":"edge.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,83,02,12,507"},{"url":"https://github.com/sindresorhus/active-win/tree/main/Sources/windows","activeWindow":"active-win/Sources/windows at main · sindresorhus/active-win - Google Chrome","processName":"Google Chrome","timeStart":"17,10,83,02,14,542"},{"activeWindow":"edge.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,83,02,18,606"},{"url":"https://www.npmjs.com/package/active-win","activeWindow":"active-win - npm - Google Chrome","processName":"Google Chrome","timeStart":"17,10,83,02,93,070"},{"activeWindow":"edge.js - OS - Visual Studio Code","processName":"Visual Studio Code","timeStart":"17,10,83,03,99,070"}]
+[
+  {
+    "activeWindow": "LeetCode - The World's Leading Online Programming Learning Platform and 2 more pages - Personal - Microsoft​ Edge",
+    "processName": "Microsoft Edge",
+    "timeStart": "17,10,84,05,33,029"
+  },
+  {
+    "activeWindow": "processes.json - OS - Visual Studio Code",
+    "processName": "Visual Studio Code",
+    "timeStart": "17,10,84,05,35,035"
+  },
+  {
+    "activeWindow": "DM: HAZIK - Raybit Technologies - Slack",
+    "processName": "Slack",
+    "timeStart": "17,10,84,05,59,131"
+  },
+  {
+    "activeWindow": "LeetCode - The World's Leading Online Programming Learning Platform and 2 more pages - Personal - Microsoft​ Edge",
+    "processName": "Microsoft Edge",
+    "timeStart": "17,10,84,05,79,221"
+  },
+  {
+    "activeWindow": "processes.json - OS - Visual Studio Code",
+    "processName": "Visual Studio Code",
+    "timeStart": "17,10,84,05,81,226"
+  },
+  {
+    "url": "https://chat.openai.com/c/50bca043-1ba8-4b4d-b831-14d94f6179a0",
+    "activeWindow": "Get Active Tab URL. - Google Chrome",
+    "processName": "Google Chrome",
+    "timeStart": "17,10,84,05,83,322"
+  },
+  {
+    "activeWindow": "processes.json - OS - Visual Studio Code",
+    "processName": "Visual Studio Code",
+    "timeStart": "17,10,84,08,76,079"
+  }
+]
