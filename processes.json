@@ -1,168 +1,29 @@
 [
   {
-    "url": null,
-    "activeWindow": "New tab - Personal - Microsoft​ Edge",
-    "processName": "Microsoft Edge",
-    "timeStart": "17,10,92,53,82,753"
-  },
-  {
-    "activeWindow": "processes.json - OS - Visual Studio Code",
+    "activeWindow": "readme.md - OS - Visual Studio Code",
     "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,53,90,841"
+    "timeStart": "17,10,92,78,60,283"
   },
   {
-    "url": null,
-    "activeWindow": "Vercel – Vercel - Personal - Microsoft​ Edge",
-    "processName": "Microsoft Edge",
-    "timeStart": "17,10,92,54,04,912"
-  },
-  {
-    "activeWindow": "Task Switching",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,54,06,926"
-  },
-  {
-    "url": "https://chat.openai.com/c/fe3414a8-7997-4f12-a86a-ceed88e26e80",
-    "activeWindow": "Firefox URL Retrieval - Google Chrome",
-    "processName": "Google Chrome",
-    "timeStart": "17,10,92,54,09,035"
-  },
-  {
-    "activeWindow": "Task Switching",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,54,45,827"
-  },
-  {
-    "url": null,
-    "activeWindow": "Vercel – Vercel - Personal - Microsoft​ Edge",
-    "processName": "Microsoft Edge",
-    "timeStart": "17,10,92,54,49,859"
-  },
-  {
-    "activeWindow": "processes.json - OS - Visual Studio Code",
-    "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,54,61,944"
-  },
-  {
-    "activeWindow": "Task Switching",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,54,63,957"
-  },
-  {
-    "activeWindow": "processes.json - OS - Visual Studio Code",
-    "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,54,65,966"
-  },
-  {
-    "activeWindow": "Task Switching",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,54,76,016"
-  },
-  {
-    "url": "https://chat.openai.com/c/fe3414a8-7997-4f12-a86a-ceed88e26e80",
-    "activeWindow": "Firefox URL Retrieval - Google Chrome",
-    "processName": "Google Chrome",
-    "timeStart": "17,10,92,54,80,056"
-  },
-  {
-    "activeWindow": "DM: abid maqbool - Raybit Technologies - Slack",
-    "processName": "Slack",
-    "timeStart": "17,10,92,55,53,555"
-  },
-  {
-    "activeWindow": "processes.json - OS - Visual Studio Code",
-    "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,55,55,568"
-  },
-  {
-    "url": "https://chat.openai.com/c/fe3414a8-7997-4f12-a86a-ceed88e26e80",
-    "activeWindow": "Firefox URL Retrieval - Google Chrome",
-    "processName": "Google Chrome",
-    "timeStart": "17,10,92,55,61,628"
-  },
-  {
-    "url": null,
-    "activeWindow": "localhost - Personal - Microsoft​ Edge",
-    "processName": "Microsoft Edge",
-    "timeStart": "17,10,92,55,67,745"
-  },
-  {
-    "activeWindow": "Application",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,55,69,753"
-  },
-  {
-    "url": null,
-    "activeWindow": "New tab - Personal - Microsoft​ Edge",
-    "processName": "Microsoft Edge",
-    "timeStart": "17,10,92,55,73,783"
-  },
-  {
-    "activeWindow": "processes.json - OS - Visual Studio Code",
-    "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,55,77,810"
-  },
-  {
-    "url": null,
-    "activeWindow": "New tab - Personal - Microsoft​ Edge",
-    "processName": "Microsoft Edge",
-    "timeStart": "17,10,92,55,88,659"
-  },
-  {
-    "activeWindow": "processes.json - OS - Visual Studio Code",
-    "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,55,92,685"
-  },
-  {
-    "activeWindow": "Task Switching",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,56,48,953"
-  },
-  {
-    "url": "https://chat.openai.com/c/fe3414a8-7997-4f12-a86a-ceed88e26e80",
-    "activeWindow": "Firefox URL Retrieval - Google Chrome",
-    "processName": "Google Chrome",
-    "timeStart": "17,10,92,56,51,027"
-  },
-  {
-    "activeWindow": "",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,56,85,890"
-  },
-  {
-    "url": "https://chat.openai.com/c/fe3414a8-7997-4f12-a86a-ceed88e26e80",
-    "activeWindow": "Firefox URL Retrieval - Google Chrome",
-    "processName": "Google Chrome",
-    "timeStart": "17,10,92,56,96,013"
-  },
-  {
-    "activeWindow": "",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,57,00,068"
-  },
-  {
+    "url": "chrome://new-tab-page/",
     "activeWindow": "New Tab - Google Chrome",
     "processName": "Google Chrome",
-    "timeStart": "17,10,92,57,08,130"
+    "timeStart": "17,10,92,78,66,458"
   },
   {
-    "activeWindow": "edge.js - OS - Visual Studio Code",
+    "activeWindow": "processes.json - OS - Visual Studio Code",
     "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,57,16,161"
+    "timeStart": "17,10,92,78,71,087"
   },
   {
-    "activeWindow": "(19) YouTube - Google Chrome",
+    "url": "https://www.mongodb.com/atlas/database",
+    "activeWindow": "MongoDB Atlas Database | Multi-Cloud Database Service | MongoDB - Google Chrome",
     "processName": "Google Chrome",
-    "timeStart": "17,10,92,57,22,201"
+    "timeStart": "17,10,92,78,75,229"
   },
   {
-    "activeWindow": "Application",
-    "processName": "Windows Explorer",
-    "timeStart": "17,10,92,57,24,216"
-  },
-  {
-    "activeWindow": "edge.js - OS - Visual Studio Code",
+    "activeWindow": "● processes.json - OS - Visual Studio Code",
     "processName": "Visual Studio Code",
-    "timeStart": "17,10,92,57,48,324"
+    "timeStart": "17,10,92,78,81,332"
   }
 ]
