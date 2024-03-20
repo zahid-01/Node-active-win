@@ -24,7 +24,3 @@ The application will start tracking the activity of opened apps on your computer
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
