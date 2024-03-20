@@ -27,7 +27,7 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 ## Development
 
-For now URL of active tabs are fetched only on debuging mode, when electron app is deployed, it wont be necessary.
+For now URL of active tabs are fetched only on debuging mode, when electron app is developed, it wont be necessary.
 
 1. firefox --remote-debugging-port=9223
 2. chrome --remote-debugging-port=9222

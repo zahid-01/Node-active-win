@@ -1,27 +1,24 @@
-const { exec } = require("child_process");
+const puppeteer = require("puppeteer-core");
 
-const getEdgeUrl = async () => {
-  exec(
-    "powershell \"Get-Process | Where-Object { $_.MainWindowTitle } | Where-Object { $_.ProcessName -eq 'msedge' } | Select-Object MainWindowTitle\"",
-    (error, stdout, stderr) => {
-      if (error) {
-        console.error(`Error: ${error.message}`);
-        return;
-      }
-      if (stderr) {
-        console.error(`Error: ${stderr}`);
-        return;
-      }
-      const titles = stdout.split("\n").filter((title) => title.trim());
-      console.log("Active tab URL:");
-      titles.forEach((title) => {
-        const match = title.match(/https?:\/\/[^ ]+/); // Regex to extract URL
-        if (match) {
-          console.log(match[0]);
-        }
-      });
-    }
-  );
+const getUrl = async () => {
+  try {
+    // Connect to an existing Edge instance on port 9222
+    const browser = await puppeteer.connect({
+      browserURL: "http://localhost:9224", // URL of the Edge DevTools server
+    });
+
+    // Get the active page
+    const pages = await browser.pages();
+    const currentPage = pages.find((page) => page.url() !== "about:blank"); // Filter out about:blank pages
+
+    // Get the URL of the active page
+    const currentUrl = currentPage ? currentPage.url() : "";
+
+    return currentUrl;
+  } catch (err) {
+    console.error("Error:", err);
+    return null;
+  }
 };
 
-module.exports = getEdgeUrl;
+module.exports = getUrl;
