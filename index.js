@@ -23,13 +23,13 @@ async function monitorActiveWindow() {
       activeWindow.platform === "windows"
     ) {
       const url = await getEdgeUrl();
-      // appData.url = url;
+      appData.url = url;
     } else if (
       activeAppName.includes("Firefox") &&
       activeWindow.platform === "windows"
     ) {
       const url = await getFfUrl();
-      // appData.url = url;
+      appData.url = url;
     }
 
     appData.activeWindow = activeWindow.title;

@@ -11,6 +11,7 @@ const storeData = async (activeWin) => {
 
     try {
       const jsonData = JSON.parse(data);
+
       if (
         jsonData.length &&
         jsonData[jsonData.length - 1].processName === activeWin.processName

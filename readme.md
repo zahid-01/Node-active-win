@@ -24,3 +24,10 @@ The application will start tracking the activity of opened apps on your computer
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or create a pull request.
+
+## Development
+
+For now URL of active tabs are fetched only on debuging mode, when electron app is deployed, it wont be necessary.
+
+1. firefox --remote-debugging-port=9223
+2. chrome --remote-debugging-port=9222
